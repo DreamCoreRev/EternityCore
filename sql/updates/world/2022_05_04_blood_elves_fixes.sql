@@ -1,0 +1,2 @@
+-- This quest is supposed to be non-blood elf version. This will update the requiredrace to not include blood-elfs. Blood elf version is 9327
+UPDATE `quest_template` SET `RequiredRaces`='33554866' WHERE  `Id`=9329;
